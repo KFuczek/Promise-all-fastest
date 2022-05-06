@@ -1,0 +1,66 @@
+#body{
+    width: 50%;
+    height: auto;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+}
+
+.promisesInput {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    gap: 5px;
+
+}
+
+.promisesOutput {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    gap: 5px;
+}
+
+.promisesOptions {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 34%;
+}
+
+.promiseLabel {
+    height: 25px;
+    border: solid black 2px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.title {
+    height: 40px;
+    border-bottom: solid orange 2px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.redLabel {
+    border: solid red 2px;
+}
+
+.blueLabel {
+    border: solid blue 2px;
+}
+
+.greenLabel {
+    border: solid green 2px;
+}
+
+.blackLabel {
+    border: solid black 2px;
+}
+
+.orangeLabel {
+    border: solid orange 2px;
+}
+
+.pinkLabel {
+    border: solid pink 2px;
+}
